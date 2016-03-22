@@ -1,0 +1,12 @@
+<h1>Pages#welcome</h1>
+<p>Find me in app/views/pages/welcome.html.erb</p>
+<p>The current time is <%= @time %></p>
+
+<%= @chefs %>
+<%= @chefs.size %>
+<ul>
+    <% @chefs.each do |chefs| %>
+    <li><%= chefs %>  </li>
+    <% end %>
+</ul>
+
